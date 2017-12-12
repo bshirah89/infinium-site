@@ -1,9 +1,9 @@
 //import {computedFrom} from 'aurelia-framework';
 
 export class Welcome {
-  heading: string = 'Welcome to the Aurelia Navigation App';
-  firstName: string = 'John';
-  lastName: string = 'Doe';
+  heading: string = 'Welcome to Infinium';
+  firstName: string = 'To Infinium';
+  lastName: string = 'And Beyond!';
   previousValue: string = this.fullName;
 
   //Getters can't be directly observed, so they must be dirty checked.
