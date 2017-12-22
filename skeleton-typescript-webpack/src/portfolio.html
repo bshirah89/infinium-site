@@ -19,8 +19,14 @@
         <label for="imgsrc">Image source</label> 
         <input type="text" class="form-control" id="imgsrc" value.bind="projectSrc" placeholder="Image Path">
       </div>
+  
       <button type="submit" class="btn btn-default">Add Project</button>
     </form>
+    <div id="placeholder" class="col-lg-3 col-md-4 col-xs-6">
+      <a href="#" class="d-block mb-4 h-100">
+        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+      </a> 
+    </div>
     <!-- list of projects  -->
     <div class="container">
       <div class="row">
@@ -33,7 +39,9 @@
               <h6 class="card-subtitle mb-2 ">${project.id}</h6>         
               <a href.bind="project.url" class="btn btn-primary" target="_blank">GO!</a>
             </div>
-          </div>  
+          </div> 
+              <!-- placeholder -->
+
         </div>
       </div>
     </div>
